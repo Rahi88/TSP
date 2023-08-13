@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.favorite-place-bg-container {
+    background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/towerbg.png");
+    height: 180vh;
+    background-size: cover;
+}
+
+.favorite-place-heading {
+    font-family: "Roboto";
+    font-size: 28px;
+    font-weight: bold;
+    color: white;
+    padding: 13px;
+}
+
+.favorite-place-card-container {
+    background-color: white;
+    border-radius: 9px;
+    padding: 16px;
+    margin: 15px;
+}
+
+.favorite-place-card-heading {
+    color: #0f0e46;
+    font-family: "Roboto";
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.favorite-place-card-description {
+    color: #6c6b70;
+    font-family: "Roboto";
+    font-size: 15px;
+}
+
+.favorite-place-card-image {
+    width: 100px;
+    height: 100px;
+}
