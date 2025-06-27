@@ -36,13 +36,13 @@ To run **Tourest** locally, run this command on your git bash:
 Linux and macOS:
 
 ```bash
-sudo git clone https://github.com/codewithsadee/tourest.git
+sudo git clone https://github.com/Rahi88/TSP.git
 ```
 
 Windows:
 
 ```bash
-git clone https://github.com/codewithsadee/tourest.git
+git clone https://github.com/Rahi88/TSP.git
 ```
 
 ### Contact
