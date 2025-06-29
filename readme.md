@@ -1,7 +1,6 @@
 <div align="center">
   
   <br />
-  <br />
 
   <h2 align="center">TSP - website</h2>
 
@@ -38,17 +37,13 @@ Windows:
 ```bash
 git clone https://github.com/Rahi88/TSP.git
 ```
-Of course! Here’s the **complete, polished guide in one block**, ready to copy-paste into your README or anywhere you need:
 
----
-
-````markdown
 ## 🚀 How to Deploy the Static Website on AWS EC2
 
-1️⃣ **Launch an EC2 instance (Ubuntu recommended)**  
+1️⃣ Launch an EC2 instance (Ubuntu recommended) 
 - During setup, make sure your EC2 security group has an inbound rule to allow **TCP port 80 (HTTP)** open to 0.0.0.0/0.
 
-2️⃣ **Connect to your EC2 instance** using SSH:
+2️⃣ Connect to your EC2 instance using SSH:
 ```bash
 ssh -i /path/to/your-key.pem ubuntu@your-ec2-public-ip
 ````
@@ -80,7 +75,7 @@ sudo rm index.html
 7️⃣ **Clone your project repository into the web root:**
 
 ```bash
-sudo git clone https://github.com/yourusername/your-repo.git .
+sudo git clone https://github.com/Rahi88/TSP.git
 ```
 
 8️⃣ **Restart Apache to apply the new website:**
