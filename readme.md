@@ -38,12 +38,62 @@ Windows:
 ```bash
 git clone https://github.com/Rahi88/TSP.git
 ```
-### Run static website 
-Install Aws Ec2 instnace then install apache2 using below cmd
+Of course! Here’s the **complete, polished guide in one block**, ready to copy-paste into your README or anywhere you need:
+
+---
+
+````markdown
+## 🚀 How to Deploy the Static Website on AWS EC2
+
+1️⃣ **Launch an EC2 instance (Ubuntu recommended)**  
+- During setup, make sure your EC2 security group has an inbound rule to allow **TCP port 80 (HTTP)** open to 0.0.0.0/0.
+
+2️⃣ **Connect to your EC2 instance** using SSH:
+```bash
+ssh -i /path/to/your-key.pem ubuntu@your-ec2-public-ip
+````
+
+3️⃣ **Update your package lists:**
+
+```bash
+sudo apt update
+```
+
+4️⃣ **Install Apache2 web server:**
+
+```bash
 sudo apt install apache2 -y
-then move to  www/html page 
-then clone repo and restart apache2 
-sudo apt restart apache2
+```
+
+5️⃣ **Move to the Apache web root directory:**
+
+```bash
+cd /var/www/html
+```
+
+6️⃣ **(Optional) Remove the default Apache index page:**
+
+```bash
+sudo rm index.html
+```
+
+7️⃣ **Clone your project repository into the web root:**
+
+```bash
+sudo git clone https://github.com/yourusername/your-repo.git .
+```
+
+8️⃣ **Restart Apache to apply the new website:**
+
+```bash
+sudo systemctl restart apache2
+```
+
+9️⃣ **Access your website** by visiting:
+
+```
+http://your-ec2-public-ip
+```
 
 
 ![Screenshot (269)](https://github.com/user-attachments/assets/22db434f-de0f-4433-b003-05583e0153f9)
