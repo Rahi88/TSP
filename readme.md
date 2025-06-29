@@ -39,6 +39,7 @@ Windows:
 git clone https://github.com/Rahi88/TSP.git
 ```
 
+![Screenshot (269)](https://github.com/user-attachments/assets/22db434f-de0f-4433-b003-05583e0153f9)
 
 ### License
 
