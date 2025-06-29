@@ -38,6 +38,13 @@ Windows:
 ```bash
 git clone https://github.com/Rahi88/TSP.git
 ```
+### Run static website 
+Install Aws Ec2 instnace then install apache2 using below cmd
+sudo apt install apache2 -y
+then move to  www/html page 
+then clone repo and restart apache2 
+sudo apt restart apache2
+
 
 ![Screenshot (269)](https://github.com/user-attachments/assets/22db434f-de0f-4433-b003-05583e0153f9)
 
